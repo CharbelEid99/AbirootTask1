@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4928598f-600f-4443-8902-5af37eca583f" name="Default Changelist" comment="Commit 1">
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="4928598f-600f-4443-8902-5af37eca583f" name="Default Changelist" comment="Commit 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613487838256</updated>
-      <workItem from="1613487839312" duration="4274000" />
+      <workItem from="1613487839312" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1613495192104</created>
@@ -205,13 +203,17 @@
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
     <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613493856361" />
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1613495345958">
+    <state x="248" y="81" key="DiffContextDialog" timestamp="1613495534172">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1613495345958" />
-    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613495468460">
+    <state x="248" y="81" key="DiffContextDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613495534172" />
+    <state x="451" y="181" width="1148" height="671" key="Vcs.Push.Dialog.v2" timestamp="1613497691088">
       <screen x="0" y="0" width="1920" height="1030" />
     </state>
-    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613495468460" />
+    <state x="451" y="181" width="1148" height="671" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1613497691088" />
+    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613497624825">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613497624825" />
   </component>
 </project>

@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 
 
+use Notification;
+use Mail ;
+use App\Notifications\MyFirstNotification;
 use App\Models\Career;
 use App\Models\Position;
 use Illuminate\Http\Request;
@@ -26,7 +29,7 @@ public function AddCareerInfo(Request $request) {
     $LastName=$request->input('LastName') ;
     $email = $request->input('email');
     $positionId=$request->input('position');
-    $description=$request->ingitput('description') ;
+    $description=$request->input('description') ;
 
 
 
@@ -35,6 +38,7 @@ public function AddCareerInfo(Request $request) {
     $filename = $email.'_CV.'.$extension;
     $cv->move('Files/',$filename);
 
+    $link="http://127.0.0.1:8000/Files/".$filename ;
     if($extension=="pdf" || $extension=="docx"){
 
         $NewCareer=new Career() ;
@@ -46,6 +50,13 @@ public function AddCareerInfo(Request $request) {
         $NewCareer->PositionId=$positionId ;
         $NewCareer->save() ;
 
+        Mail::send([ ], [], function($message) use ($email, $FirstName , $LastName, $link ) {
+            $message->to("charbel.eid@hotmail.co.uk");
+            // Set the sender
+
+            $message->setBody('Hello admin , the user : '.$FirstName.' '.$LastName.' submitted his career information . This is his personal email :'.$email.'Plus the CV is attachde below .
+             Please check it: ' .$link. '');
+        });
         return redirect()->route('Home') ;
     }else{
 
