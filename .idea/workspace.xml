@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4928598f-600f-4443-8902-5af37eca583f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ProjectPlasma/Assets/fblogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ProjectPlasma/Assets/instalogo.jpg" afterDir="false" />
+    <list default="true" id="4928598f-600f-4443-8902-5af37eca583f" name="Default Changelist" comment="Commit 1">
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,8 +170,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613487838256</updated>
-      <workItem from="1613487839312" duration="677000" />
+      <workItem from="1613487839312" duration="4274000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit 1">
+      <created>1613495192104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613495192104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,5 +195,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613493856361">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="623" y="209" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613493856361" />
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2" timestamp="1613495345958">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="451" y="181" key="Vcs.Push.Dialog.v2/0.0.1920.1030@0.0.1920.1030" timestamp="1613495345958" />
+    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1613495468460">
+      <screen x="0" y="0" width="1920" height="1030" />
+    </state>
+    <state x="678" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1920.1030@0.0.1920.1030" timestamp="1613495468460" />
   </component>
 </project>
